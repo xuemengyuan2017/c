@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+/*头部*/
+.top{
+	width: 100%;
+	height: 2.14rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+}
+.top .div1{
+	width: 5rem;
+	height: 2.14rem;	
+}
+.top .div1 img{
+	width: 4.58rem;
+	height: 1.57rem;
+    margin-top: 0.34rem;
+    margin-left: 0.38rem;   
+}
+.top .div2{
+	font-size: 0.76rem;
+	margin-left: 1.5rem;
+}
+
+.top .div3{
+	width: 2.64rem;
+	height:2.14rem ;
+	margin-left: 3.5rem;
+}
+.top .div3 ul{
+	width: 2.64rem;
+	height:2.14rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top .div3 ul li{
+	width: 50%;
+}
+.top .div3 ul li img:nth-of-type(1){
+	width: 0.85rem;
+	height: 0.91rem;
+}
+.top .div3 ul li p{
+	font-size: 0.59rem;
+	color: #9B9B9B;
+	margin-top: -0.2rem;
+}
+.aaa{
+	width: 100%;
+	height: 0.59rem;
+	background: #F4F4F4;
+}
+
+
+section{
+	width: 100%;
+	height: 5.71rem;
+	/*border: 1px solid red;*/
+}
+section .left{
+	width: 100%;
+	height: 5.63rem;
+}
+section .left{
+	width: 43%;
+	height: 5.63rem;
+	/*border: 1px solid blue;*/
+}
+section .left img{
+	width: 6.03rem;
+	height: 4.18rem;
+	margin-top: 0.74rem;
+	margin-left: 0.42rem;
+}
+
+section .right {
+	width: 57%;
+	height: 5.63rem;
+	/*border: 1px solid blue;*/
+	float: right;
+	margin-top: -5.6rem;
+}
+section .right .r-1{
+	width: 9.6rem;
+	height: 0.72rem;
+	
+}
+section .right .r-1 p{
+	font-size: 0.72rem;
+	margin-left: 0.51rem;
+	margin-top:0.55rem ;
+	color: #000;
+	
+}
+section .right .r-2 {
+	width: 9.6rem;
+	height: 0.72rem;	
+}
+section .right .r-2  p{
+	width: 9.17rem;
+	height: 0.59rem;
+	font-size: 0.51rem;
+	margin-top:0.55rem ;
+	margin-left: 0.38rem;
+	color: #333;	
+}
+section .right .r-2  p strong{
+	margin-left: 1.17rem;
+	color: #ff4351;	
+}
+
+
+section .right .r-3 {
+	width: 9.6rem;
+	height: 0.72rem;	
+}
+section .right .r-3  p{
+	width: 9.17rem;
+	height: 0.59rem;
+	font-size: 0.51rem;
+	margin-top:0.55rem ;
+	margin-left: 0.38rem;
+	color: #333;	
+}
+section .right .r-3  p span{
+	margin-left: 1.17rem;
+	color: black;	
+}
+
+section .right .r-4 {
+	width: 9.6rem;
+	height: 0.72rem;	
+}
+section .right .r-4  p{
+	width: 9.17rem;
+	height: 0.59rem;
+	font-size: 0.51rem;
+	margin-top:0.55rem ;
+	margin-left: 0.38rem;
+	color: #333;	
+}
+section .right .r-4  p span{
+	margin-left: 0.17rem;
+	color: black;	
+}
+
+
+#head{
+	width: 100%;
+	height:2.85rem ;
+	/*border: 1px solid red;*/
+}	
+#head p{
+	font-size: 0.42rem;
+    margin-top: 0.64rem;
+	margin-left: 0.42rem;
+}
+
+#header{
+	width: 100%;
+	height: 2.13rem;
+}
+#header ul{
+	width: 100%;
+	height: 2.13rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+#header ul li p{
+	font-size: 0.59rem;
+	color: #000000;
+	
+}
+#header ul li p:hover{
+	border-bottom: 0.05rem solid #3CC893;	
+}
+#header ul li img{
+	width: 1rem;
+	height: 1.04rem;
+	text-align: center;
+}
+
+#ban img{
+	width: 100%;
+	height: 36.76rem;
+}
+
+.ccc{
+	width: 100%;
+	height: 0.42rem;
+	background: #F4F4F4;
+	margin-top: 1.5rem;
+}
+
+#zi{
+   width: 100%;
+   height: 5.19rem;
+   margin-top: 0.5rem;
+   border: 1px solid red;
+}
+#zi span{
+   margin-left: 1.60rem;
+   font-size: 0.59rem;
+   color: #333;
+   margin-top: 0.53rem;
+}
+#zi p{
+   margin-left: 0.38rem;
+   font-size: 0.59rem;
+   color: #333;
+   margin-top: 0.34rem;
+}
+
+
+.zzz{
+	width: 100%;
+	height: 0.42rem;
+	background: #F4F4F4;
+}
+
+#cp{
+	width: 100%;
+	height: 3.63rem;
+	/*border: 1px solid red;*/
+}
+
+#cp .c-1{
+	width: 100%;
+	height: 2.13rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#cp .c-1 img{
+	width: 0.70rem;
+	height: 0.70rem;
+}
+#cp .c-1 span{
+	font-size: 0.59rem;
+	margin-left: 0.28rem;
+}
+
+
+
+#cp .c-2{
+	width: 100%;
+	height: 1.60rem;
+	/*border: 2px solid #efefef;*/
+}
+#cp .c-2 ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.35rem;
+	text-align: center;
+	
+}
+#cp .c-2 ul li{
+	width: 33%;
+}
+
+#cp .c-2 ul li p{
+	font-size:0.59rem ;
+	color: #000;
+}
+
+#cp .c-2 ul li p:hover{
+	color: #A9E5C9;
+}
+
+.ding{
+	width: 100%;
+	height: 1.81rem;
+	position: relative;
+	background: #FE6A73;
+}
+.ding .d-1{
+	width: 100%;
+	height:1.81rem ;
+	color: white;
+	font-size: 0.59rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.ding .d-1 img{
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.5rem;
+}
+.ding .d-1 span{
+	margin-left: 0.5rem;
+	margin-top: 0.7rem;
+}
+
+footer {
+	width: 100%;
+	height: 0.85rem;
+	margin-top: -0.2rem;
+}
+footer img{
+	width: 100%;
+	height: 0.85rem;
+}
+
+
+
+
